@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributo DATA</title>
+</head>
+<body>
+
+    <header>
+        <h1>Atributo DATA</h1>
+        <nav></nav>
+    </header>
+
+    <section>
+        <div>
+            <ul>
+                <li data-id="id-1" data-email="vavah-1@.com">Vagner Lopes</li>
+                <li data-id="id-2" data-email="vavah-2@.com">Vagner Ferreira Lopes</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>Direitos Reservados!</p>
+    </footer>
+    <script>
+        document.querySelectorAll('li').forEach(liEl => {
+
+            console.log(liEl.dataset);
+            console.log(liEl.dataset.email);
+            console.log(liEl.dataset.id);
+
+        })
+    </script>
+    
+</body>
+</html>

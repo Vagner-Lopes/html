@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .padrao {
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+            margin: 10px 20px; 
+        }
+        .linha {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #box-1 {
+            background: crimson;
+        }
+        #box-2 {
+            background: mediumslateblue;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Atributo id</h1>
+        <p>Este atributo permite criar um identificador para um elemento</p>
+    </header>
+
+    <section>
+        <div id="box-1" class="padrao"></div>
+        <div id="box-2" class="padrao"></div>
+    </section>
+
+
+    <footer style="border: solid 1px black; background: lightblue">
+        <p>Direitos Reservados!</p>
+    </footer>
+    
+    <script>
+
+        const box1 = document.getElementById('box-1');
+        const box2 = document.querySelector('#box-2');
+
+        console.log(box1);
+        console.log(box2);
+
+
+
+    </script>
+
+</body>
+</html>

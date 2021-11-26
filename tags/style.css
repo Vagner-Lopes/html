@@ -1,0 +1,28 @@
+.padrao {
+    border: 1px solid;
+    margin: 10px 20px; 
+}
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-1 {
+    background: crimson;
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    margin: 10px 20px;
+}
+.box-2 {
+    background: mediumslateblue;
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    margin: 10px 20px;
+}
+.bk-blue {
+    background: lightblue;
+    border: 1px solid;
+    margin: 10px 0px;
+    text-align: center;
+}

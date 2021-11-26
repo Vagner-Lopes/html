@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden</title>
+    <style>
+        .padrao {
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+            margin: 10px 20px;
+            
+        }
+        .linha {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Atributo Hidden/h1>
+        <p>Este atributo, esconde um elemento mas nao o desctrói.</p>
+    </header>
+
+    <section>
+        <h3>Sem hidden!</h3>
+        <div class='linha'>
+            <div class="padrao">Vagner</div>
+            <div class="padrao">Estudos</div>   
+        </div>
+        
+    </section>
+    <hr>
+    <section>
+        <h3>Com hidden no primeiro elemento</h3>
+        <div hidden class="padrao">Vagner</div>
+        <div class="padrao">Estudos</div>
+    </section>
+
+    
+    <footer style="border: solid 1px black; background: lightblue">
+        <p>Direitos Reservados!</p>
+    </footer>
+    
+</body>
+</html>

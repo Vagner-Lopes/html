@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <style>
+        #quadrado {
+            width: 100px;
+            height: 100px;
+            background: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #quadrado2 {
+            width: 200px;
+            height: 200px;
+            background: white;
+            border: 1px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Zone</title>
+</head>
+<body>
+
+    <header>
+        <h1>Atributo Drop Zone</h1>
+        <h2>Arrastável</h2>
+        <p>Este atributo permite receber um elemento arrastado.</p>
+    </header>
+
+    <section style="height: 150px;">
+        <div id="quadrado" draggable="true"> 
+            <button>OK</button>
+        </div>
+    </section>
+    <section style="height: 300px;">
+        <div class="drop" id="quadrado2" dropzone="copy"></div>
+    </section>
+
+    <footer style="background: lightblue; border: solid 4px black;">
+        <p>Direitos Reservados!</p>
+    </footer>
+
+    <script>
+        
+    </script>
+    
+</body>
+</html>
